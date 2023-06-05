@@ -15,7 +15,7 @@ code {
 }
 
 .app_body{
-  width:70%;
-  padding: 0px 15%;
+  width:100%;
+  padding: 0px 12%;
   display: flex;
 }
