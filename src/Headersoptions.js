@@ -1,6 +1,6 @@
 import React from 'react'
-import { Avatar } from '@material-ui/core';
 import "./css/header.css"
+import { Avatar } from '@material-ui/core';
 
 function Headersoptions({ Icon , title, avatar}) {
   return (

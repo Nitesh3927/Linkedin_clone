@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react'
+
+import Post from './Post';
+import firebase from "firebase"
+import { db } from './firebase'; 
+import './css/feed.css'
+
 import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import ArticleIcon from '@mui/icons-material/Article';
-import './css/feed.css'
 import { Avatar } from '@material-ui/core'
-import Post from './Post';
-import firebase from "firebase"
-import { db } from './firebase'; 
-
 
 function Feed() {
     const [posts, setPost] = useState([]);

@@ -1,6 +1,6 @@
 import React from 'react'
-import SearchIcon from '@mui/icons-material/Search';
 import "./css/header.css"
+import SearchIcon from '@mui/icons-material/Search';
 import Headersoptions from './Headersoptions';
 import HomeIcon from '@mui/icons-material/Home';
 import PeopleIcon from '@mui/icons-material/People';

@@ -1,11 +1,13 @@
-import { Avatar } from '@mui/material'
 import React from 'react'
-import MoreVertIcon from '@mui/icons-material/MoreVert';
 import "./css/post.css"
+
+import { Avatar } from '@mui/material'
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import CommentIcon from '@mui/icons-material/Comment';
-// import SendIcon from '@mui/icons-material/Send';
 import ReplyIcon from '@mui/icons-material/Reply';
+// import SendIcon from '@mui/icons-material/Send';
+
 function Post({name, description, message,photoURL}) {
   return (
     <div className='posts'>
